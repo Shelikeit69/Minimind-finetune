@@ -76,6 +76,12 @@ Pre-training → General SFT → Finance Fine-tuning → Sentiment Classificatio
 
 ---
 
+## Training Loss Curves / 训练 Loss 曲线
+
+![Training Loss Curves](images/training_loss_curves.png)
+
+> *Approximate curves based on recorded checkpoint loss values*
+
 ## Evaluation Results / 评估结果 — Sentiment Classification
 
 评估采用分层随机抽样（每类各 50 条，共 150 条），以修正数据集类别不平衡问题。
