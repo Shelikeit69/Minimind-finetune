@@ -3,4 +3,10 @@ __pycache__/
 .DS_Store
 out
 website/
-docs-minimind/
+checkpoints/
+*.pth
+*.pt
+*.bin
+dataset/*.jsonl
+dataset/.ipynb_checkpoints/
+*.log
